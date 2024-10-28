@@ -1,0 +1,154 @@
+/* Hero.css */
+body{
+  /* background-color: rgb(248, 247, 244); */
+  background-color: grey;
+
+}
+.hero {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-color: rgb(248, 247, 244);
+    text-align: center;
+    /* color: #fff; */
+    /* padding: 20px; */
+  }
+
+  
+  .hero-content h1 {
+    font-size: 88px;
+    width: 70%;
+    color: black;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .secondParaBg{
+    background: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .paraBg{
+    color: black;
+  }
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-btn {
+    background-color: #ea4c89;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-btn:hover {
+    background-color: #d13b72;
+  }
+  .Heroing{
+    padding-top: 50px;
+  }
+  .Heroing p{
+    font-size: 60px;
+    font-weight: 300;
+    color: black;
+  }
+  .Designs{
+    display: flex;
+    flex-direction: column;
+  }
+  .Designs img{
+    width: 300px;
+    height: 185px;
+    border-radius: 8px;
+  }
+  .flexingthings{
+    display: flex;
+    gap: 15px;
+  }
+  .flexingthings img{
+    height: 20px;
+    width: 20px;
+  }
+  .probackground{
+    background-color: gray;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .wordflexdiv{
+    display: flex;
+    gap: 18px;
+  }
+  .designGrid{
+    padding-left: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+  }
+  .btnDesgn{
+    width: 220px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px solid black;
+    font-size: 16px;
+    text-wrap: nowrap;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .heroSection2{
+    padding: 20px;
+  }
+  /* .btnDesgn:hover{
+    background-color: whitesmoke;
+  } */
+.hero-content3{
+  background-color: #ffda79;
+}
+
+  .hero-content3 h1 {
+    font-size: 88px;
+    width: 60%;
+    color: black;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .secondParaBg3{
+    background: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .paraBg3{
+    color: black;
+  }
+  .hero-content3 p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-btn3 {
+    background-color: black;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-btn3:hover {
+    background-color: #white;
+  }
